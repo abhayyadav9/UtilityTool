@@ -5,6 +5,8 @@ import Navbar from "./component/Navbar";
 import Background from "./component/Page/BackGround";
 import QrGenerator from "./component/Page/QrGeneratoer";
 import BackgroundRemover from "./component/Page/BackgroundRemover";
+import FileConverter from "./component/Page/FileConverter";
+import Doc_pdf from "./component/Page/doc_pdf";
 
 const App = () => {
   return (
@@ -20,6 +22,11 @@ const App = () => {
           <Route path="/bg" element={<Background />} />
           <Route path="/qr" element={<QrGenerator />} />
           <Route path="/bg-remove" element={<BackgroundRemover />} />
+          <Route path="/file-convertor" element={<FileConverter />} />
+          <Route path="/doc-pdf" element={<Doc_pdf/>} />
+
+
+
 
 
 

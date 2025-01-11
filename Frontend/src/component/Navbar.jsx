@@ -34,6 +34,16 @@ const items = [
     label: <Link to="/bg-remove">Remove BackGround</Link>,
   },
   {
+    key: "5",
+    icon: <ContainerOutlined />,
+    label: <Link to="/file-convertor">File Convertor</Link>,
+  },
+  {
+    key: "6",
+    icon: <ContainerOutlined />,
+    label: <Link to="/doc-pdf">doc to pdf</Link>,
+  },
+  {
     key: "sub1",
     label: "Navigation One",
     icon: <MailOutlined />,

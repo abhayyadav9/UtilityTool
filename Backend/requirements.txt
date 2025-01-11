@@ -1,0 +1,8 @@
+Flask
+Flask-Cors
+Pillow
+rembg
+qrcode
+python-docx
+pdf2docx
+PyPDF2
